@@ -53,8 +53,8 @@ DEFERRED_EXEC_ENABLE = yes
 Near the top of the file, add relative `#include`s for `led_enum.h` and `features/led_comm.h` in the `dualhand` folder. It will look like:
 
 ```c
-#include "../../../ploopyco/trackball_nano/keymaps/nimchuk/led_enum.h"
-#include "../../../ploopyco/trackball_nano/keymaps/nimchuk/features/led_comm.h"
+#include "../../../ploopyco/trackball_nano/keymaps/dualhand/led_enum.h"
+#include "../../../ploopyco/trackball_nano/keymaps/dualhand/features/led_comm.h"
 ```
 
 If the keymap has a custom `led_update_user(led_t led_state)` function implemented, then add the following line to it:
